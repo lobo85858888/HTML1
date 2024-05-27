@@ -1,0 +1,170 @@
+/* Define la fuente principal para todo el documento */
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
+    margin: 0;
+    background-color: #efefef; /* Fondo gris claro */
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #364552; /* Fondo azul oscuro */
+    color: white; /* Texto blanco */
+    padding: 3rem 2rem; /* Espaciado interno */
+}
+
+/* Estilos del título principal del encabezado */
+header h1 {
+    font-size: 4rem; /* Tamaño grande */
+    text-align: center; /* Centrado */
+}
+
+header h1:hover{
+    transform: translateY(-10px);
+}
+/* Estilos del contenedor principal */
+.container {
+    width: 400px; /* Ancho fijo */
+    margin: 0 auto; /* Centrado horizontal */
+    text-align: center; /* Centrado de texto */
+}
+
+/* Estilos de cada artículo en la sección */
+section article {
+    transition: all 0.3s ease; /* Transición suave */
+    background-color: #fff; /* Fondo blanco */
+    margin: 1rem 0; /* Espaciado externo */
+    border-radius: 26px; /* Bordes redondeados */
+    padding: 0.25rem 0; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    
+}
+
+/* Efecto de sombra al pasar el ratón por encima del artículo */
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.7); /* Sombra */
+    transform: translateY(-10px);
+}
+
+/* Estilos para el título y el contenido del artículo */
+section article h2, section article p {
+    margin: 1rem; /* Espaciado interno */
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #222; /* Fondo negro */
+    padding: 3rem; /* Espaciado interno */
+    color: #fff; /* Texto blanco */
+    bottom: 0; /* Pegado al fondo */
+    left: 0;
+    right: 0;
+}
+
+/* Estilos para secciones dentro del pie de página */
+footer section {
+    float: right; /* Alineación a la derecha */
+}
+
+/* Estilos para los párrafos dentro del pie de página */
+footer p {
+    margin: 0; /* Sin margen */
+}
+
+/* Estilos para los enlaces dentro del pie de página */
+footer a {
+    transition: color 0.6s ease; /* Transición suave del color */
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Efecto de cambio de color al pasar el ratón por encima del enlace */
+footer a:hover {
+    color: cornflowerblue; /* Color azul claro */
+    transform: translateY(-10px);
+}
+
+/* Estilos para los enlaces dentro de los artículos */
+/* Estilos para el enlace "Click para ir a la web" */
+#Web {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #707070; /* Rojo */
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #9e9e9e; /* Borde rojo */
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Efecto de cambio al pasar el ratón */
+#Web:hover {
+    background-color: #8b8b8b; /* Rojo más oscuro */
+    border-color: #666666; /* Borde rojo más oscuro */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transform: translateY(-10px); /* Levantar ligeramente al pasar el ratón */
+}
+
+.video {
+    display: inline-block; /* Mostrar como bloque en línea */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #ff0000; /* Fondo rojo oscuro */
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Efecto de cambio de color de fondo al pasar el ratón por encima del enlace en los artículos */
+.video:hover {
+    background-color: #420000; /* Fondo rojo más oscuro */
+    transition: all 0.5s ease;
+    transform: translateY(-10px);
+}
+
+#Youtube{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkseagreen;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: backgroun-color 0.7s;
+}
+
+#Youtube:hover{
+    background-color: greenyellow;
+    transition: all 0.5s ease;
+    transform: translateY(-10px);
+}
+
+.Imagen-container {
+    border-radius: 26px;
+    position: relative; /* Establece posición relativa */
+    top: 15px; /* Mueve la imagen hacia abajo 20px */
+}
+
+.Imagen-container:hover{
+    transition: all 0.5s ease;
+    transform: translateY(-10px);
+}
+
+.Imagen{
+    padding: 1px;
+    border-radius: 26px;
+}
+
+.Imagen:hover{
+    transition: all 0.5s ease;
+    transform: translateY(-10px);
+}
+
+body{
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+}

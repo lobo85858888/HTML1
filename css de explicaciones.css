@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #ff9f1a, #63c9b4);
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+.Titulos {
+    margin: 0; /* Elimina el margen del h1 */
+    color: white;
+    background-color: #587188;
+    padding: 4rem 3rem;
+    text-align: center;
+    font-size: 4rem;
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    box-sizing: border-box; /* Incluye el padding dentro del ancho */
+}
+
+.container {
+    width: 400px; /* Ancho fijo */
+    margin: 0 auto; /* Centrado horizontal */
+    text-align: center; /* Centrado de texto */
+}
+
+section article {
+    transition: all 0.3s ease; /* Transición suave */
+    background-color: #fff; /* Fondo blanco */
+    margin: 1rem 0; /* Espaciado externo */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    padding: 0.25rem 0; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.7); /* Sombra */
+}
+
+section article h2, section article p {
+    margin: 1rem; /* Espaciado interno */
+}
+
+footer {
+    background-color: #222; /* Fondo negro */
+    padding: 3rem; /* Espaciado interno */
+    color: #fff; /* Texto blanco */
+    bottom: 0; /* Pegado al fondo */
+    left: 0;
+    right: 0;
+}
+
+footer section {
+    float: right; /* Alineación a la derecha */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+}
+
+footer a {
+    transition: color 0.6s ease; /* Transición suave del color */
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+    color: cornflowerblue; /* Color azul claro */
+}
+
+article a {
+    display: inline-block; /* Mostrar como bloque en línea */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #af4c4c; /* Fondo rojo oscuro */
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+article a:hover {
+    background-color: #a04545; /* Fondo rojo más oscuro */
+}

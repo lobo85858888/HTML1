@@ -1,0 +1,152 @@
+/* Estilos para el cuerpo del documento */
+body {
+    margin: 0;
+    background-color: #efefef; /* Fondo gris claro */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% del viewport height mínimo */
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4)
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #364552; /* Fondo azul oscuro */
+    color: white; /* Texto blanco */
+    padding: 3rem 2rem; /* Espaciado interno */
+}
+
+/* Estilos del título principal del encabezado */
+header h1 {
+    font-size: 4rem; /* Tamaño grande */
+    text-align: center; /* Centrado */
+}
+
+header h1:hover{
+    background-color: black;
+}
+
+/* Estilos para el contenido principal */
+.container {
+    width: 400px; /* Ancho fijo */
+    margin: 0 auto; /* Centrado horizontal */
+    text-align: center; /* Centrado de texto */
+    flex: 1; /* Toma el espacio restante */
+}
+
+/* Estilos para los botones */
+.button-container {
+    text-align: center;
+    margin-bottom: 50px; /* Separación entre botones y otro contenido */
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    display: inline-block; /* Añadido */
+    margin-right: 10px; /* Añadido */
+}
+
+.button:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+    transform: translateY(-10px);
+    border-radius: 50px;
+}
+
+.button:active {
+    background-color: #398438;
+    border-color: #398438;
+}
+
+/* Estilo para resaltar texto */
+.highlight {
+    color: red;
+}
+
+/* Estilos para los artículos */
+section article {
+    transition: all 0.3s ease; /* Transición suave */
+    background-color: #fff; /* Fondo blanco */
+    margin: 1rem 0; /* Espaciado externo */
+    border-radius: 26px; /* Bordes redondeados */
+    padding: 0.25rem 0; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.7); /* Sombra */
+    transform: translateY(-10px);
+}
+
+section article h2, section article p {
+    margin: 1rem; /* Espaciado interno */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #222; /* Fondo negro */
+    padding: 3rem; /* Espaciado interno */
+    color: #fff; /* Texto blanco */
+}
+
+footer section {
+    float: right; /* Alineación a la derecha */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+}
+
+footer a {
+    transition: color 0.6s ease; /* Transición suave del color */
+    color: #fff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+    color: cornflowerblue; /* Color azul claro */
+    transform: translateY(-10px);
+}
+
+.Imagen{
+    position: relative;
+    top: -20px;
+    padding: 1px;
+    border-radius: 26px;
+}
+
+.Imagen:hover{
+    transition: all 0.5s ease;
+    transform: translateY(-10px);
+}
+
+.video {
+    position: relative;
+    top: -15px;
+    display: inline-block; /* Mostrar como bloque en línea */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #ff0000; /* Fondo rojo oscuro */
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Efecto de cambio de color de fondo al pasar el ratón por encima del enlace en los artículos */
+.video:hover {
+    background-color: #420000; /* Fondo rojo más oscuro */
+    transition: all 0.5s ease;
+    transform: translateY(-5px);
+    
+}
+

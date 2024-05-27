@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right, #c6ffdd, #fbd786, #f7797d)
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box:hover {
+    transform: scale(1.05);
+}
+.box::before {
+    content: attr(data-bg);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.copy-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ffffff;
+    color: #333333;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.copy-button:hover {
+    background: #f0f0f0;
+}
+.copy-button:focus {
+    outline: none;
+}
+/* 50 primeros estilos de fondo */
+.box.bg1 { background: linear-gradient(to right, #ff7e5f, #feb47b); }
+.box.bg2 { background: linear-gradient(to right, #6a11cb, #2575fc); }
+.box.bg3 { background: linear-gradient(to right, #ffafbd, #ffc3a0); }
+/* Agrega aquí los estilos bg4 a bg50 */
+/* 50 estilos de fondo adicionales */
+.box.bg51 { background: linear-gradient(to right, #2193b0, #6dd5ed); }
+.box.bg52 { background: linear-gradient(to right, #cc2b5e, #753a88); }
+/* Agrega aquí los estilos bg53 a bg100 */
+/* Agrega los estilos restantes */
+.box.bg53 { background: linear-gradient(to right, #ee9ca7, #ffdde1); }
+.box.bg54 { background: linear-gradient(to right, #42275a, #734b6d); }
+.box.bg55 { background: linear-gradient(to right, #bdc3c7, #2c3e50); }
+.box.bg56 { background: linear-gradient(to right, #de6262, #ffb88c); }
+.box.bg57 { background: linear-gradient(to right, #06beb6, #48b1bf); }
+.box.bg58 { background: linear-gradient(to right, #eb3349, #f45c43); }
+.box.bg59 { background: linear-gradient(to right, #56ab2f, #a8e063); }
+.box.bg60 { background: linear-gradient(to right, #614385, #516395); }
+.box.bg61 { background: linear-gradient(to right, #eecda3, #ef629f); }
+.box.bg62 { background: linear-gradient(to right, #eacda3, #d6ae7b); }
+.box.bg63 { background: linear-gradient(to right, #02aab0, #00cdac); }
+.box.bg64 { background: linear-gradient(to right, #d66d75, #e29587); }
+.box.bg65 { background: linear-gradient(to right, #000428, #004e92); }
+.box.bg66 { background: linear-gradient(to right, #ddd6f3, #faaca8); }
+.box.bg67 { background: linear-gradient(to right, #c94b4b, #4b134f); }
+.box.bg68 { background: linear-gradient(to right, #4568dc, #b06ab3); }
+.box.bg69 { background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b); }
+.box.bg70 { background: linear-gradient(to right, #dd5e89, #f7bb97); }
+.box.bg71 { background: linear-gradient(to right, #eea849, #f46b45); }
+.box.bg72 { background: linear-gradient(to right, #43c6ac, #191654); }
+.box.bg73 { background: linear-gradient(to right, #ef3b36, #ffffff); }
+.box.bg74 { background: linear-gradient(to right, #00c9ff, #92fe9d); }
+.box.bg75 { background: linear-gradient(to right, #fc5c7d, #6a82fb); }
+.box.bg76 { background: linear-gradient(to right, #ff9966, #ff5e62); }
+.box.bg77 { background: linear-gradient(to right, #f12711, #f5af19); }
+.box.bg78 { background: linear-gradient(to right, #8e2de2, #4a00e0); }
+.box.bg79 { background: linear-gradient(to right, #2b5876, #4e4376); }
+.box.bg80 { background: linear-gradient(to right, #ff512f, #dd2476); }
+.box.bg81 { background: linear-gradient(to right, #56ccf2, #2f80ed); }
+.box.bg82 { background: linear-gradient(to right, #b2fefa, #0ed2f7); }
+.box.bg83 { background: linear-gradient(to right, #e6dada, #274046); }
+.box.bg84 { background: linear-gradient(to right, #a8ff78, #78ffd6); }
+.box.bg85 { background: linear-gradient(to right, #50c9c3, #96deda); }
+.box.bg86 { background: linear-gradient(to right, #d9a7c7, #fffcdc); }
+.box.bg87 { background: linear-gradient(to right, #2c3e50, #4ca1af); }
+.box.bg88 { background: linear-gradient(to right, #243949, #517fa4); }
+.box.bg89 { background: linear-gradient(to right, #73c8a9, #373b44); }
+.box.bg90 { background: linear-gradient(to right, #ff6e7f, #bfe9ff); }
+.box.bg91 { background: linear-gradient(to right, #e1eec3, #f05053); }
+.box.bg92 { background: linear-gradient(to right, #1488cc, #2b32b2); }
+.box.bg93 { background: linear-gradient(to right, #f00000, #dc281e); }
+.box.bg94 { background: linear-gradient(to right, #00f260, #0575e6); }
+.box.bg95 { background: linear-gradient(to right, #1d2b64, #f8cdda); }
+.box.bg96 { background: linear-gradient(to right, #b24592, #f15f79); }
+.box.bg97 { background: linear-gradient(to right, #00c6ff, #0072ff); }
+/* Agrega los estilos restantes */
+.box.bg98 { background: linear-gradient(to right, #bdc3c7, #2c3e50); }
+.box.bg99 { background: linear-gradient(to right, #de6262, #ffb88c); }
+.box.bg100 { background: linear-gradient(to right, #06beb6, #48b1bf); }
+footer {
+background-color: #222; /* Fondo negro */
+padding: 3rem; /* Espaciado interno */
+color: #fff; /* Texto blanco */
+bottom: 0; /* Pegado al fondo */
+left: 0;
+right: 0;
+}
+
+footer section {
+float: right; /* Alineación a la derecha */
+}
+
+
+footer a {
+transition: color 0.6s ease; /* Transición suave del color */
+color: #fff; /* Texto blanco */
+text-decoration: none; /* Sin subrayado */
+}
+
+footer a:hover {
+color: cornflowerblue; /* Color azul claro */
+}
