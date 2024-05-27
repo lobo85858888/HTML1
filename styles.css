@@ -21,10 +21,6 @@ header h1 {
     text-align: center; /* Centrado */
 }
 
-header h1:hover{
-    background-color: black;
-}
-
 /* Estilos para el contenido principal */
 .container {
     width: 400px; /* Ancho fijo */
